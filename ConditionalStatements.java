@@ -6,7 +6,7 @@ public class ConditionalStatements {
 
         int jayMarks = 98;
         int jagdishMarks = 99;
-        int maulikMarks = 99;
+        int maulikMarks = 100;
 
         System.out.println(jagdishMarks > jayMarks);
         System.out.println(jayMarks < jagdishMarks);
