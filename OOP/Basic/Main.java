@@ -1,4 +1,4 @@
-package OOP;
+package OOP.Basic;
 
 // Object Orintend Programming is paradime of programing which
 // deal with classes and objects
@@ -20,7 +20,7 @@ package OOP;
 *
 * */
 
-public class OOP {
+public class Main {
 
     // properties (fileds / variable)
 
@@ -85,11 +85,11 @@ public class OOP {
     }
 
     public static void main(String[] args) {
-        OOP OOP = new OOP();
+        Main Main = new Main();
 
-        OOP.setSpeed(20);
-        OOP.accelerate(1);
-        System.out.println(OOP.getSpeed());
+        Main.setSpeed(20);
+        Main.accelerate(1);
+        System.out.println(Main.getSpeed());
 
         Cat tomy = new Cat();
         tomy.name = "Tomy";
